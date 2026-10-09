@@ -5,7 +5,7 @@ import joblib
 # Streamlit UI Configuration
 st.set_page_config(page_title="Student Performance Predictor", layout="centered")
 st.title("🎓 Student Performance Prediction System")
-st.write("Student ki details enter karein aur predicted exam score dekhein.")
+st.write("Enter the student's details to see the predicted exam score.")
 
 # Model Load karein
 model = joblib.load('student_model.pkl')
